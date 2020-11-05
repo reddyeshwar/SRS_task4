@@ -58,7 +58,7 @@ func main() {
 	if len(os.Args) < 2 {
 		usage()
 		os.Exit(1)
-	}
+	
 
 	subCommand := os.Args[1]
 	commandLine := os.Args[2:]
